@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test us getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done- test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and get application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to get completed]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Reports generated]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and get application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to get completed]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68711" started-at="2021-04-09T15:21:25Z" finished-at="2021-04-09T15:22:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68711" started-at="2021-04-09T15:21:25Z" finished-at="2021-04-09T15:22:33Z">
+      <class name="com.qa.tests.FacebookLoginTest">
+        <test-method status="PASS" signature="setupsuite()[pri:0, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="setupsuite" is-config="true" duration-ms="217" started-at="2021-04-09T20:51:24Z" finished-at="2021-04-09T20:51:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test us getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done- test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="startApp" is-config="true" duration-ms="13524" started-at="2021-04-09T20:51:25Z" finished-at="2021-04-09T20:51:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and get application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="UploadPhoto()[pri:1, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="UploadPhoto" duration-ms="21249" started-at="2021-04-09T20:51:38Z" finished-at="2021-04-09T20:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadPhoto -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="teardown" is-config="true" duration-ms="1826" started-at="2021-04-09T20:51:59Z" finished-at="2021-04-09T20:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadPhoto status=SUCCESS method=FacebookLoginTest.UploadPhoto()[pri:1, instance:com.qa.tests.FacebookLoginTest@5ea434c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to get completed]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="startApp" is-config="true" duration-ms="13158" started-at="2021-04-09T20:52:01Z" finished-at="2021-04-09T20:52:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and get application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="postMessage()[pri:2, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="postMessage" duration-ms="17713" started-at="2021-04-09T20:52:14Z" finished-at="2021-04-09T20:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMessage -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FacebookLoginTest@5ea434c8]" name="teardown" is-config="true" duration-ms="1225" started-at="2021-04-09T20:52:32Z" finished-at="2021-04-09T20:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postMessage status=SUCCESS method=FacebookLoginTest.postMessage()[pri:2, instance:com.qa.tests.FacebookLoginTest@5ea434c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to get completed]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tests.FacebookLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
