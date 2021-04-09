@@ -10,6 +10,8 @@ public class LoginPage {
 	WebDriver driver;
 	public LoginPage(WebDriver ldriver) {
 		this.driver = ldriver;
+		
+		
 	}
 	
 	@FindBy(name = "email")
