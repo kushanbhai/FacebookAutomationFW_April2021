@@ -30,7 +30,7 @@ public class BaseClass {
 	public void setupsuite() {
 		Reporter.log("Setting up reports and test is getting ready", true);
 		config = new ConfigDataProvider();
-		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+ "/Reports/Facebook"+TestUtil.getCurrentDateTime()+".html"));
+		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+ "/Reports/Facebook_"+TestUtil.getCurrentDateTime()+".html"));
 		report = new ExtentReports();
 		report.attachReporter(extent);
 		Reporter.log("Setting done- test can be started", true);
