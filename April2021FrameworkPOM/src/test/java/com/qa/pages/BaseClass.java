@@ -28,7 +28,7 @@ public class BaseClass {
 	public ExtentTest logger;
 	@BeforeSuite
 	public void setupsuite() {
-		Reporter.log("Setting up reports and test us getting ready", true);
+		Reporter.log("Setting up reports and test is getting ready", true);
 		config = new ConfigDataProvider();
 		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+ "/Reports/Facebook"+TestUtil.getCurrentDateTime()+".html"));
 		report = new ExtentReports();
@@ -42,7 +42,7 @@ public class BaseClass {
 		Reporter.log("Trying to start browser and get application ready", true);
 		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getStagingURL());
 		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
-		String enpwd = "YWlydGVsQDEyMw==";
+		//String enpwd = "YWlydGVsQDEyMw==";
 		loginpage.logintofacebook(config.getDatafromConfig("username"), TestUtil.decodestr(config.getDatafromConfig("encryptedpassword")));
 		Reporter.log("Browser and application is up and running", true);
 	}
@@ -62,7 +62,7 @@ public class BaseClass {
 			
 			else if(result.getStatus() == ITestResult.SUCCESS) {
 				try {
-					logger.pass("Test Failed ", MediaEntityBuilder.createScreenCaptureFromPath(TestUtil.captureScreenshot(driver)).build());
+					logger.pass("Test Passed ", MediaEntityBuilder.createScreenCaptureFromPath(TestUtil.captureScreenshot(driver)).build());
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
